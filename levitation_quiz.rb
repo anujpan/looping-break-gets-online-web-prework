@@ -2,7 +2,7 @@
 def levitation_quiz
 	#your code here
 	puts "Name"
-	name = gets
+	name = gets.chomp
 	puts "hey #{name}"
 end
 
