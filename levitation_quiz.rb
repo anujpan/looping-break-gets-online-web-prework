@@ -1,9 +1,13 @@
 
 def levitation_quiz
 	#your code here
-	puts "Name"
-	name = gets.chomp
-	puts "hey #{name}"
+	loop do
+	  puts "hey"
+	  answer = gets.chomp
+	  break if answer == "STOP"
+	end
+	
+	puts "fuck you"
 end
 
 
