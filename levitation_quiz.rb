@@ -3,7 +3,7 @@ def levitation_quiz
 	#your code here
 	puts "Name"
 	name = gets
-	puts "hey {#name}"
+	puts "hey #{name}"
 end
 
 
